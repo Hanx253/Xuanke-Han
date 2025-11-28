@@ -12,8 +12,8 @@ fetch('data.json')
         fieldsElement.textContent = fields;
 
         const navItems = [
-            { text: 'About Me', url: 'about.html' },
-            { text: 'Projects', url: 'work.html' },
+            { text: 'About', url: 'about.html' },
+            { text: 'Works', url: 'work.html' },
             // { text: 'Resume', url: 'resume.html' }
         ];
 
