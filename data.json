@@ -1,0 +1,279 @@
+{
+    "firstName": "Xuanke",
+    "lastName": "Han",
+    "fields": "Design & Technology",
+    "about": {
+        "skills": [
+    "Programming & Interactive Media: HTML/CSS, JavaScript, C#, Arduino Uno, Unity",
+    "Design & Visual Communication: Adobe Photoshop, Illustrator, InDesign, After Effects, Premiere Pro, Lightroom Classic",
+    "3D & Digital Fabrication: 3D Modeling (Blender, MeshLab), TouchDesigner",
+    "Creative Practice: Photography, Visual Storytelling, Motion Graphics"
+  ],
+        "interests": ["Technology as a medium for connection, speculation, and interaction",
+  "Art as emotional language and cultural reflection",
+  "Games as playful, interactive systems for storytelling",
+  "Photography as a way of documenting memory, rhythm, and atmosphere",
+  "Printmaking as a tactile counterpoint to the digital, embracing process and imperfection"],
+        "introduction": "Xuanke is a New York–based artist and designer working across interactive media, game design, web environments, printmaking, and photography. Her work explores how technology shapes human perception, emotion, and agency, creating experiences that merge digital systems with material sensibility. Through playful interaction and experimental interfaces, she investigates how we navigate connection and meaning in a world increasingly mediated by screens."
+    },
+    "works": {
+    "Interactive Design": [
+      {
+        "id": "quest",
+        "title": "DeCade",
+        "year": "2025",
+        "date": "May, 2025",
+        "size": "50 in × 37 in x 2 in",
+        "medium": "Mix media",
+        "shortDescription": "DeCade is an interactive installation that turns the act of plugging and unplugging into both mechanism and metaphor, evoking the dreamlike aesthetics of fading arcades and fragile memory. A 7×7 grid of sockets becomes a surreal matrix—not filled with machines, but with their lingering characters. Each connection triggers a response, pulling the player deeper into a nostalgic loop that refuses closure.",
+        "images": [
+          "assets/InteractiveDesign/Project1/1.jpg", "assets/InteractiveDesign/Project1/2.jpg", "assets/InteractiveDesign/Project1/3.jpg", "assets/InteractiveDesign/Project1/4.jpg", "assets/InteractiveDesign/Project1/5.jpg", "assets/InteractiveDesign/Project1/6.jpg", "assets/InteractiveDesign/Project1/7.jpg"
+        ],
+        "videoUrl": "",            
+        "moreUrl": ""                
+      },
+      {
+        "id": "quest",
+        "title": "Blind Faith",
+        "year": "2025",
+        "date": "June, 2025",
+        "size": "40 in × 25 in x 25 in",
+        "medium": "Mix media",
+        "shortDescription": "Blind Faith invites participants to draw an action, perform it, and receive an “answer” in return. By turning uncertainty, performance, and reward into a ritual, Blind Faith reflects how consumer culture elevates ordinary objects into icons of desire, value, and belief.",
+        "images": [
+          "assets/InteractiveDesign/Project3/1.JPG", "assets/InteractiveDesign/Project3/IMG_0049.jpg", "assets/InteractiveDesign/Project3/21.PNG", "assets/InteractiveDesign/Project3/111.jpg", "assets/InteractiveDesign/Project3/2.JPG", "assets/InteractiveDesign/Project3/3.JPG", "assets/InteractiveDesign/Project3/4.JPG","assets/InteractiveDesign/Project3/5.JPG","assets/InteractiveDesign/Project3/6.JPG","assets/InteractiveDesign/Project3/7.JPG"
+        ],
+        "videoUrl": "",            
+        "moreUrl": ""                
+      },
+      {
+        "id": "quest",
+        "title": "Ripple",
+        "year": "2025",
+        "date": "September, 2025",
+        "size": "",
+        "medium": "Digital UI/UX design",
+        "shortDescription": "A fun app that helps people save water by turning their daily progress into rewards, fish care, and community boss battles.",
+        "images": [
+          "assets/InteractiveDesign/Project2/1.svg",
+          "assets/InteractiveDesign/Project2/2.svg",
+          "assets/InteractiveDesign/Project2/3.svg",
+          "assets/InteractiveDesign/Project2/4.svg",
+          "assets/InteractiveDesign/Project2/5.svg"
+        ],
+        "videoUrl": "",            
+        "moreUrl": ""                
+      },
+      {
+        "id": "quest",
+        "title": "Quest",
+        "year": "2023",
+        "date": "May, 2023",
+        "size": "",
+        "medium": "Unity, game design",
+        "shortDescription": "A pixel game set in a divided universe where the player collects badges and script fragments to resolve a conflict between two forces.",
+        "images": [
+          "assets/InteractiveDesign/Project4/1.png",
+          "assets/InteractiveDesign/Project4/2.png",
+          "assets/InteractiveDesign/Project4/3.png",
+          "assets/InteractiveDesign/Project4/4.png",
+          "assets/InteractiveDesign/Project4/5.png"
+        ],
+        "videoUrl": "",            
+        "moreUrl": "https://hanx253.github.io/Quest/"                
+      },
+      {
+        "id": "quest",
+        "title": "Unboxing Data",
+        "year": "2024",
+        "date": "April, 2024",
+        "size": "",
+        "medium": "Web design",
+        "shortDescription": "Unboxing Data is a conceptual digital project that unpacks data trails and digital identities across scales — from personal to global — inviting users to reflect on how mediated information shapes experience, identity, and perception.",
+        "images": [
+          "assets/InteractiveDesign/Project5/1.png",
+          "assets/InteractiveDesign/Project5/2.png",
+          "assets/InteractiveDesign/Project5/3.png"
+       
+        ],
+        "videoUrl": "",            
+        "moreUrl": "https://hanx253.github.io/UnboxingData/"                
+      }
+    ],
+
+
+    "Photography": [
+      {
+        "id": "photography",
+        "title": "The Scent",
+        "year": "2025",
+        "date": "October, 2025",
+        "size": "6240 px x 4160 px",
+        "medium": "Digital Photography",
+        "shortDescription": "An exploration of commercial photography techniques using multiple lightning tools and controlled studio methods.",
+        "images": [
+          "assets/Photography/Project1/1.png",
+          "assets/Photography/Project1/2.png",
+         
+          "assets/Photography/Project1/3.png"
+        ],
+        "videoUrl": "",
+        "moreUrl": ""
+      },
+      {
+        "id": "photography",
+        "title": "Crimson",
+        "year": "2025",
+        "date": "November, 2025",
+        "size": "4000 px x 6000 px",
+        "medium": "Digital Photography",
+        "shortDescription": "Light becomes language here- constructing, erasing, and redefining.",
+        "images": [
+          "assets/Photography/Project2/1.png",
+          "assets/Photography/Project2/2.png",
+         "assets/Photography/Project2/3.png",
+          "assets/Photography/Project2/4.png"
+        ],
+        "videoUrl": "",
+        "moreUrl": ""
+      }
+    ],
+
+    "Printmaking": [
+      {
+        "id": "print-example",
+        "title": "F-R-O-G",
+        "year": "2025",
+        "date": "October, 2025",
+        "size": "9 in × 12 in",
+        "medium": "Relief print, ink on paper.",
+        "shortDescription": "Relief print where the word “frog” is shaped into the form of the animal itself, merging typography and imagery into a single visual structure.",
+        "images": ["assets/Printmaking/Project1/1.jpg", "assets/Printmaking/Project1/2.jpg", "assets/Printmaking/Project1/3.jpg"],
+        "videoUrl": "",
+        "moreUrl": ""
+      },
+      {
+        "id": "print-example",
+        "title": "“Fssst”",
+        "year": "2025",
+        "date": "September, 2025",
+        "size": "8 in x 10 in",
+        "medium": "Press print, ink on paper.",
+        "shortDescription": "Press print exploring the relationship between sound, text, and image by translating the onomatopoeic “Fssst” into a tactile visual form.",
+        "images": ["assets/Printmaking/Project2/1.jpg", "assets/Printmaking/Project2/2.jpg"
+    ],
+        "videoUrl": "",
+        "moreUrl": ""
+      }
+    ],
+
+    "Public Art": [
+      {
+        "id": "Manhattan Park Pool Club Mural",
+        "title": "Public Installation",
+        "year": "2024",
+        "date": "May, 2024",
+        "size": "Over 9000 square feet",
+        "medium": "Mural",
+        "shortDescription": "An 8,000-square-foot mural led by Yuehan (Selina) Ma, exploring the movement and autonomy of water through flowing organic forms and abstract natural patterns.",
+        "images": ["assets/PublicArt/1.jpg","assets/PublicArt/2.jpg","assets/PublicArt/3.jpg","assets/PublicArt/4.jpg","assets/PublicArt/5.jpg"
+                    ],
+        "videoUrl": "",
+        "moreUrl": ""
+      }
+    ],
+
+    "Sculpture": [
+      {
+        "id": "structure",
+        "title": "The Structure",
+        "year": "2023",
+        "date": "April, 2023",
+        "size": "12 in × 12 in × 12 in",
+        "medium": "Paper",
+        "shortDescription": "A modular paper sculpture constructed entirely through interlocking pieces without glue.",
+        "images": [
+          "assets/Sculpture/Project1/1.JPG",
+          "assets/Sculpture/Project1/2.JPG",
+          "assets/Sculpture/Project1/3.JPG"
+        ],
+        "videoUrl": "",
+        "moreUrl": ""
+      },
+      {
+        "id": "structure",
+        "title": "Low-poly Human Head",
+        "year": "2023",
+        "date": "May, 2023",
+        "size": "18 in x 10 in x 12 in",
+        "medium": "Glossy Paper",
+        "shortDescription": "A hand-built low-poly sculpture inspired by Jaume Plensa’s Water’s Soul, exploring form, scale, and materiality through meticulous paper construction and precise folding techniques.",
+        "images": [
+          "assets/Sculpture/Project2/3.JPG",
+          "assets/Sculpture/Project2/1.JPG",
+          "assets/Sculpture/Project2/2.JPG",
+          "assets/Sculpture/Project2/4.JPG"
+        ],
+        "videoUrl": "",
+        "moreUrl": ""
+      }
+    ],
+    "Uncategorized": [
+      {
+        "id": "structure",
+        "title": "Terra Lucida",
+        "year": "2025",
+        "date": "July, 2025",
+        "size": "",
+        "medium": "",
+        "shortDescription": "A research-driven project investigating climate-induced displacement and the absence of refugee recognition.",
+        "images": [
+          "assets/Uncategorized/Project1/1.png",
+          "assets/Uncategorized/Project1/2.png",
+          "assets/Uncategorized/Project1/3.png",
+          "assets/Uncategorized/Project1/4.png",
+          "assets/Uncategorized/Project1/5.png",
+          "assets/Uncategorized/Project1/6.png",
+          "assets/Uncategorized/Project1/7.png"
+        ],
+        "videoUrl": "",
+        "moreUrl": ""
+      }
+    ]
+  },
+    "resume": {
+  "workExperience": [
+    {
+      "company": "Fujian Shen Shao’an Lacquer Art Museum",
+      "jobTitle": "Intern Designer",
+      "dates": "05/2025–07/2025",
+      "responsibilities": [
+        "Undertook duties concerning product modeling, material representation, and lighting rendering to ensure real visual effects and the product’s business attractiveness.",
+        "Optimized details of the model and light–shadow performance for product publicity, exhibition display, and online marketing.",
+        "Worked on visual design, poster production, and social media operation."
+      ]
+    },
+    {
+      "company": "Beijing Moxiaotuo Model Kou Cultural Technology Co., Ltd",
+      "jobTitle": "Intern in Product Design",
+      "dates": "12/2023-01/2024",
+      "responsibilities": [
+        "Got acquainted with cultural and creative products related to Chinese traditional culture.",
+        "Immersed in lifestyle products and cultural space experiences involving tea culture, historical culture, and utensil aesthetics.",
+        "Engaged in product selection and planning by mining Chinese traditional cultural elements and translating abstract cultural images into product concepts aligned with modern aesthetics.",
+        "Worked on product positioning, including packaging style decisions and presentation strategy.",
+        "Participated in seal collection and design, interactive experience design and equipment installation, as well as visual material and graphic design."
+      ]
+    }
+  ],
+  "education": {
+    "institution": "Parsons School of Design",
+    "degree": "Bachelor of Fine Arts",
+    "yearGraduated": "May, 2026"
+  }
+    },
+    "contact": {
+        "email": "hanx253@newschool.edu",
+        "phoneNumber": "718-508-2486"
+    }
+}

@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'TitleFont';
+    src: url('../fonts/cursyger.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SecondFont';
+    src: url('../fonts/Stepalange.otf') format('opentype');
+}
+
+
+/* ---------------- Global ---------------- */
+
+body {
+    font-family: 'SecondFont', sans-serif;
+    background-color: rgb(25, 25, 25);
+    color: whitesmoke;
+    margin: 0;
+}
+
+
+/* ---------------- Main Layout ---------------- */
+
+.container {
+    text-align: right;
+    padding-top: 15pt;
+    padding-bottom: 15pt;
+    padding-left: 75pt;
+    padding-right: 75pt;
+}
+
+.name {
+    font-family: 'TitleFont', sans-serif;
+    font-size: 60pt;
+    font-weight: bold;
+    margin-bottom: 30pt;
+}
+
+.fields {
+    font-size: 22pt;
+    line-height: 28pt;
+    padding-left: 390pt;
+    padding-right: 9pt;
+}
+
+
+/* ---------------- Side Navigation ---------------- */
+
+.container2 {
+    position: fixed;
+    bottom: 56pt;
+    left: 82pt;
+}
+
+.container2 p {
+    font-size: 23pt;
+    margin-bottom: 13pt;
+    line-height: 35pt;
+    transition: transform 0.3s ease;
+}
+
+.container2 p:hover {
+    transform: scale(1.2);
+}
+
+.container2 a {
+  color: whitesmoke;
+  text-decoration: none;
+  transition: 
+    color 0.3s ease,
+    transform 0.3s ease,
+    text-shadow 0.3s ease;
+  
+  /* 关键！！阻断继承 */
+  text-shadow: none;
+}
+
+.container2 a:hover {
+  color: white;
+  text-shadow:
+    0 0 6px rgba(255,255,255,0.5),
+    0 0 14px rgba(255,255,255,0.3),
+    0 0 26px rgba(255,255,255,0.2);
+  transform: scale(1.15);
+}
+

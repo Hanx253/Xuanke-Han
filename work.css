@@ -1,0 +1,301 @@
+/* ========= Fonts ========= */
+
+@font-face {
+  font-family: 'TitleFont';
+  src: url('../fonts/cursyger.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SecondFont';
+  src: url('../fonts/Stepalange.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ========= Base ========= */
+
+body {
+  margin: 0;
+  background-color: rgb(25, 25, 25);
+  color: whitesmoke;
+  font-family: 'SecondFont', sans-serif;
+  font-size: 19pt; /* 字体稍微变大一点 */
+}
+
+.page-container {
+  max-width: 700pt; /* 比原来 596pt 稍微宽一点，让两张图更大 */
+  margin: 67pt auto 60pt auto;
+}
+
+/* Back arrow */
+
+.arrow {
+  font-family: 'SecondFont', sans-serif;
+  position: absolute;
+  top: 30pt;
+  left: 45pt;
+  font-size: 60pt;
+  text-decoration: none;
+  color: whitesmoke;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.arrow:hover {
+  color: white;
+  text-shadow:
+    0 0 6px rgba(255,255,255,0.5),
+    0 0 14px rgba(255,255,255,0.3),
+    0 0 26px rgba(255,255,255,0.2);
+  transform: scale(1.15);
+}
+
+/* ========= Category sections ========= */
+
+.category-section + .category-section {
+  margin-top: 40pt;
+}
+
+.category-section h2 {
+  font-family: 'TitleFont', sans-serif;
+  font-size: 18pt; /* 稍微大一点 */
+  margin: 0 0 28pt 0; /* 和下面图片拉开更多距离 */
+  border-bottom: 2pt solid whitesmoke;
+  padding-bottom: 6pt;
+}
+
+/* ========= Grid: two works per row ========= */
+
+.works-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr)); /* 两张图一排 */
+  gap: 24pt; /* 稍微加点间距，图片也放大了 */
+}
+
+/* ========= Cards ========= */
+
+.work-card {
+  cursor: pointer;
+}
+
+/* 这里控制缩略图盒子：固定横向 7:5 比例，并放大一点 */
+.work-thumb {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 7 / 5;   /* ★ 横向 7:5 比例 */
+  border-radius: 0;
+}
+
+.work-thumb img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;      /* ★ 裁切而不是拉伸，保证画面不变形 */
+}
+
+/* Hover overlay */
+
+.work-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.78);
+  opacity: 0;
+  padding: 12pt;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: opacity 0.3s ease;
+}
+
+.work-card:hover .work-overlay {
+  opacity: 1;
+}
+
+.work-overlay h3 {
+  margin: 0 0 6pt 0;
+  font-size: 20pt;
+  margin-left: 7pt;
+  margin-right: 7pt;
+}
+
+.work-meta {
+  margin: 0 0 6pt 0;
+  font-size: 13pt;
+    margin-left: 7pt;
+  margin-right: 7pt;
+}
+
+.work-short {
+  margin: 0 0 4pt 0;
+  font-size: 15pt;
+    margin-left: 7pt;
+  margin-right: 7pt;
+  line-height: 20pt;
+}
+
+/* ========= Lightbox / Gallery ========= */
+
+.lightbox.hidden {
+  display: none;
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-inner {
+  background: #151515;
+  padding: 14pt;
+  max-width: 1000px;
+  width: 90%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* 返回箭头，与左右箭头视觉一致 */
+.lightbox-back {
+  font-family: 'SecondFont', sans-serif;
+  font-size: 40pt;
+  color: whitesmoke;
+  background: none;
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+  user-select: none;
+  margin-top: -10pt;
+  position: absolute;
+    
+  transition: transform 0.25s ease, color 0.25s ease;
+}
+
+/* hover 效果一致 */
+.lightbox-back:hover {
+    color: white;
+  text-shadow:
+    0 0 6px rgba(255,255,255,0.5),
+    0 0 14px rgba(255,255,255,0.3),
+    0 0 26px rgba(255,255,255,0.2);
+  transform: scale(1.15);
+}
+
+
+.lightbox-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24pt;
+}
+
+.lightbox-main img {
+  max-width: 100%;
+  max-height: 60vh;
+  display: block;
+}
+
+/* ========= Lightbox Navigation Arrows (match font + position beside gallery area) ========= */
+
+.lightbox-prev,
+.lightbox-next {
+  font-family: 'SecondFont', sans-serif;
+  font-size: 60pt;
+  color: whitesmoke;
+  background: none;
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+  position: absolute; /* 👈 改回 absolute，因为我们要对齐图片容器 */
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.3s ease, color 0.3s ease;
+  user-select: none;
+  z-index: 2000;
+}
+
+/* 📌 关键：基于 .lightbox-main 定位 */
+.lightbox-main {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 左箭头贴在 gallery 左侧黑色区 */
+.lightbox-prev {
+  left: -3pt; /* 数值可调，让箭头完全处于黑色区域 */
+}
+
+/* 右箭头贴在 gallery 右侧黑色区 */
+.lightbox-next {
+  right: -3pt;
+}
+
+/* Hover 效果 */
+.lightbox-prev:hover,
+.lightbox-next:hover {
+  color: white;
+  text-shadow:
+    0 0 6px rgba(255,255,255,0.5),
+    0 0 14px rgba(255,255,255,0.3),
+    0 0 26px rgba(255,255,255,0.2);
+}
+
+
+.lightbox-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 16pt;
+  margin-top: 16pt;
+  align-items: flex-start;
+}
+
+.lightbox-info h3 {
+  margin: 0 0 8pt 0;
+  font-size: 20pt;
+  margin-left: 20pt;
+  margin-top: 10pt;
+}
+
+.lightbox-info p {
+  margin: 0 0 4pt 0;
+  font-size: 15pt;
+  line-height: 20pt;
+  margin-left: 20pt;
+}
+
+.lightbox-links {
+  display: flex;
+  flex-direction: column;
+  gap: 6pt;
+  align-items: flex-end;
+}
+
+/* 只控制 lightbox 里“日期 + 尺寸 + 媒介”这一行 */
+.lightbox-info .lightbox-date-line {
+  font-size: 13pt;      /* 比正文小一号 */
+  font-style: italic;   /* 斜体 *       /* 略微淡一点，可选 */
+}
+
+
+.lb-link {
+  font-size: 13pt;
+  text-decoration: none;
+  color: whitesmoke;
+  white-space: nowrap;
+  margin-right: 20pt;
+}
+
+.lb-link:hover {
+      color: white;
+  text-shadow:
+    0 0 6px rgba(255,255,255,0.5),
+    0 0 14px rgba(255,255,255,0.3),
+    0 0 26px rgba(255,255,255,0.2);
+  transform: scale(1.15);
+}

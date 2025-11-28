@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'TitleFont';
+    src: url('../fonts/cursyger.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SecondFont';
+    src: url('../fonts/Stepalange.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'SecondFont', sans-serif;
+    background-color: rgb(25, 25, 25);
+    color: whitesmoke;
+    font-size: 17pt;
+}
+
+.Container {
+    max-width: 596pt; /* 原 800px 转换为 pt */
+    margin-top: 67pt;  /* 原 90px → ~67pt */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-family: 'TitleFont', sans-serif;
+    font-size: 15pt; /* 原 20px → 15pt */
+    margin-top: 37pt; /* 50px → 37pt */
+    border-bottom: 2pt solid whitesmoke;
+    padding-bottom: 4pt; /* 原 5px → 4pt */
+}
+
+li,p {
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+    padding: 0pt;
+}
+
+.contactContainer a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contactContainer a:hover {
+    color: #00BFFF;
+}
+
+.contactContainer {
+    margin-bottom: 70pt;
+}
+
+.contactContainer p {
+    margin-top: 31pt;
+    line-height: 1.3pt;
+}
+
+
+.arrow {
+    font-family: 'SecondFont', sans-serif;
+    position: absolute;
+    top: 30pt; /* 原 40px → 30pt */
+    left: 45pt; /* 原 60px → 45pt */
+    font-size: 60pt; /* 原 80px → 60pt */
+    text-decoration: none;
+    color: whitesmoke;
+    transition: transform 0.3s ease;
+}
+
+.arrow:hover {
+    transform: scale(1.2);
+     color: white;
+  text-shadow:
+    0 0 6px rgba(255,255,255,0.5),
+    0 0 14px rgba(255,255,255,0.3),
+    0 0 26px rgba(255,255,255,0.2);
+  transform: scale(1.15);
+}
+
+.work-item {
+    margin-top: 24pt;
+}
+
+.work-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;   /* 让左右文字在同一条基线 */
+}
+
+.work-left {
+    display: inline-flex;
+    gap: 2pt;
+    flex-wrap: wrap;
+}
+
+
+
+.work-dates {
+    font-size: 0.9em;
+    white-space: nowrap; 
+}
+
+/* 职责列表样式，可和你 li 的全局样式配合 */
+.work-item ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10pt;
+}
+
+.work-item li {
+    line-height: 1.6;
+    margin-bottom: 4pt;
+    font-size: 0.9em;
+    font-style: italic;
+}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Works – Xuanke Han</title>
+  <link rel="stylesheet" href="work.css" />
+</head>
+<body>
+  <a href="index.html" class="arrow">&lt;</a>
+
+  <div class="page-container">
+    <div class="works-container" id="worksContainer">
+      <!-- JS 会在这里插入各个分类和作品卡片 -->
+    </div>
+  </div>
+
+  <!-- Gallery / Lightbox -->
+  <div class="lightbox hidden" id="lightbox">
+    <div class="lightbox-inner">
+      <button class="lightbox-back" id="lightboxBack">&lt;</button>
+
+      <div class="lightbox-main">
+        <button class="lightbox-prev" id="lightboxPrev">&lt;</button>
+        <img id="lightboxImage" alt="" />
+        <button class="lightbox-next" id="lightboxNext">&gt;</button>
+      </div>
+
+      <div class="lightbox-footer">
+        <div class="lightbox-info">
+          <h3 id="lightboxTitle"></h3>
+          <p id="lightboxMeta"></p>
+          <p id="lightboxDesc"></p>
+        </div>
+        <div class="lightbox-links">
+          <a id="videoLink" class="lb-link" href="#" target="_blank"></a>
+          <a id="moreLink" class="lb-link" href="#" target="_blank"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="work.js"></script>
+</body>
+</html>
