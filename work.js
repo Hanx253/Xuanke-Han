@@ -118,7 +118,7 @@ fetch('data.json')
 
       // 视频链接
       if (currentProject.videoUrl) {
-        videoLink.textContent = 'Video';
+        videoLink.textContent = 'Watch Video';
         videoLink.href = currentProject.videoUrl;
         videoLink.style.display = 'inline-block';
       } else {

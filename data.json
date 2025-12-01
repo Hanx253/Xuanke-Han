@@ -30,7 +30,7 @@
           "assets/InteractiveDesign/Project1/1.jpg", "assets/InteractiveDesign/Project1/2.jpg", "assets/InteractiveDesign/Project1/3.jpg", "assets/InteractiveDesign/Project1/4.jpg", "assets/InteractiveDesign/Project1/5.jpg", "assets/InteractiveDesign/Project1/6.jpg", "assets/InteractiveDesign/Project1/7.jpg"
         ],
         "videoUrl": "",            
-        "moreUrl": ""                
+        "moreUrl": "https://hanx253.github.io/Works/d.html"                
       },
       {
         "id": "quest",
@@ -43,8 +43,8 @@
         "images": [
           "assets/InteractiveDesign/Project3/1.JPG", "assets/InteractiveDesign/Project3/IMG_0049.jpg", "assets/InteractiveDesign/Project3/21.PNG", "assets/InteractiveDesign/Project3/111.jpg", "assets/InteractiveDesign/Project3/2.JPG", "assets/InteractiveDesign/Project3/3.JPG", "assets/InteractiveDesign/Project3/4.JPG","assets/InteractiveDesign/Project3/5.JPG","assets/InteractiveDesign/Project3/6.JPG","assets/InteractiveDesign/Project3/7.jpg"
         ],
-        "videoUrl": "",            
-        "moreUrl": ""                
+        "videoUrl": "https://vimeo.com/1141752534?share=copy&fl=sv&fe=ci",            
+        "moreUrl": "https://hanx253.github.io/Works/bf.html"                
       },
       {
         "id": "quest",
@@ -98,6 +98,20 @@
         ],
         "videoUrl": "",            
         "moreUrl": "https://hanx253.github.io/UnboxingData/"                
+      },
+      {
+        "id": "quest",
+        "title": "What Was Taken",
+        "year": "2024",
+        "date": "December, 2024",
+        "size": "",
+        "medium": "Unity, game design",
+        "shortDescription": "In this game, every level places you inside a different room, each shaped by its own culture, story, and identity. Yet among the objects around you, some feel slightly wrong—out of place, mismatched.",
+        "images": [
+          "assets/InteractiveDesign/Project6/1.png", "assets/InteractiveDesign/Project6/2.png", "assets/InteractiveDesign/Project6/3.png", "assets/InteractiveDesign/Project6/4.png", "assets/InteractiveDesign/Project6/5.png"
+        ],
+        "videoUrl": "https://vimeo.com/1141787361?share=copy&fl=sv&fe=ci",            
+        "moreUrl": "https://hanx253.github.io/Works/wwt.html"                
       }
     ],
 
@@ -237,7 +251,25 @@
           "assets/Uncategorized/Project1/7.png"
         ],
         "videoUrl": "",
-        "moreUrl": ""
+        "moreUrl": "https://hanx253.github.io/Works/tl.html"
+      },
+      {
+        "id": "structure",
+        "title": "STANDARDIZED IDENTITY",
+        "year": "2025",
+        "date": "March, 2025",
+        "size": "",
+        "medium": "Mix media",
+        "shortDescription": "This project uses virtual character design and the symbolic pursuit of “famous painting fragments” to explore how modern individuals interact with social stereotypes. Although many people resist being defined by labels or cultural expectations, the process of seeking identity, validation, and belonging often leads them back into predictable templates—templates society already recognizes and approves.",
+        "images": [
+          "assets/Uncategorized/Project2/3.png",
+          "assets/Uncategorized/Project2/1.png",
+          "assets/Uncategorized/Project2/2.png",
+          "assets/Uncategorized/Project2/4.png",
+          "assets/Uncategorized/Project2/5.png"
+        ],
+        "videoUrl": "https://youtu.be/klIf5wzLIjI",
+        "moreUrl": "https://hanx253.github.io/Works/si.html"
       }
     ]
   },
