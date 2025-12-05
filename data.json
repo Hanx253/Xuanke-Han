@@ -178,6 +178,19 @@
     ],
         "videoUrl": "",
         "moreUrl": ""
+      },
+      {
+        "id": "print-example",
+        "title": "SteelBallRun",
+        "year": "2025",
+        "date": "November, 2025",
+        "size": "12 in x 16 in",
+        "medium": "Relief print, ink on paper.",
+        "shortDescription": "A poster design created for JoJo’s Bizarre Adventure: Part 7 — Steel Ball Run, featuring iconic characters, themes, and visual elements inspired by the series.",
+        "images": ["assets/Printmaking/Project3/1.JPG", "assets/Printmaking/Project3/2.jpg", "assets/Printmaking/Project3/3.JPG"
+    ],
+        "videoUrl": "",
+        "moreUrl": ""
       }
     ],
 
