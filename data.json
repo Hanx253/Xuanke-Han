@@ -150,6 +150,27 @@
         ],
         "videoUrl": "",
         "moreUrl": ""
+      },
+      {
+        "id": "photography",
+        "title": "Outside, Inside",
+        "year": "2025",
+        "date": "December, 2025",
+        "size": "6680 px x 5010 px",
+        "medium": "Digital Photography",
+        "shortDescription": "A photographic dialogue between the perfect exterior of fruit and the fragile, intricate world hidden beneath its skin.",
+        "images": [
+          "assets/Photography/Project3/1.JPG",
+          "assets/Photography/Project3/2.JPG",
+          "assets/Photography/Project3/3.JPG",
+          "assets/Photography/Project3/4.JPG",
+          "assets/Photography/Project3/5.JPG",
+          "assets/Photography/Project3/6.JPG",
+          "assets/Photography/Project3/7.JPG",
+          "assets/Photography/Project3/8.JPG"
+        ],
+        "videoUrl": "",
+        "moreUrl": ""
       }
     ],
 
@@ -252,7 +273,7 @@
         "year": "2025",
         "date": "July, 2025",
         "size": "",
-        "medium": "",
+        "medium": "Functional Design",
         "shortDescription": "A research-driven project investigating climate-induced displacement and the absence of refugee recognition.",
         "images": [
           "assets/Uncategorized/Project1/1.png",
