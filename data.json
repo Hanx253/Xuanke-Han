@@ -304,6 +304,25 @@
         ],
         "videoUrl": "https://youtu.be/klIf5wzLIjI",
         "moreUrl": "https://hanx253.github.io/Works/si.html"
+      },
+        {
+        "id": "structure",
+        "title": "Beyond the Tank",
+        "year": "2025",
+        "date": "November, 2025",
+        "size": "",
+        "medium": "3D modeling and rendering",
+        "shortDescription": "Beyond the Tank is a speculative aquarium experience that reimagines how humans connect with marine life without relying on captivity or performance. Through immersive technologies such as 3D holographic projection and interactive interfaces, the project replaces live animal exhibits with digital encounters that preserve wonder while eliminating harm.",
+        "images": [
+          "assets/Uncategorized/Project3/1.JPG",
+          "assets/Uncategorized/Project3/2.JPG",
+          "assets/Uncategorized/Project3/3.JPG",
+          "assets/Uncategorized/Project3/4.JPG",
+          "assets/Uncategorized/Project3/5.JPG",
+          "assets/Uncategorized/Project3/6.JPG"
+        ],
+        "videoUrl": "https://youtu.be/klIf5wzLIjI",
+        "moreUrl": "https://hanx253.github.io/Works/si.html"
       }
     ]
   },

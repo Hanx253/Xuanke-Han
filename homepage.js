@@ -53,6 +53,7 @@ fetch('data.json')
       'DeCade',
       'Blind Faith',
       'Terra Lucida',
+      'Beyond the Tank',
       'STANDARDIZED IDENTITY',
       'What Was Taken',
       'Quest'
